@@ -11,7 +11,7 @@ function ItemForm({onNewItemName, onNewItemCategoryName, onItemFormSubmit}) {
 
       <label>
         Category:
-        <select name="category" onClick={onNewItemCategoryName}>
+        <select name="category" onChange={onNewItemCategoryName}>
           <option value="Produce">Produce</option>
           <option value="Dairy">Dairy</option>
           <option value="Dessert">Dessert</option>
